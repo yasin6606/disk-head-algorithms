@@ -6,6 +6,7 @@
 #define HW3_SHAREDMACROS_H
 
 #define MENU_NUM 6
+#define DEFAULT_CYLINDER_NUM 1
 
 // String colors
 #define ANSI_COLOR_RED     "\x1b[31m"

@@ -3,5 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 #endif //HW3_MAIN_H

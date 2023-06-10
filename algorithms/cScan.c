@@ -1,5 +1,5 @@
 #include "../main.h"
 
-void cScan() {
+void cScan(int *cylinderList, int cylinderLen) {
 
 }

@@ -1,5 +1,5 @@
 #include "../main.h"
 
-void look() {
+void look(int *cylinderList, int cylinderLen) {
 
 }

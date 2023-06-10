@@ -2,7 +2,7 @@
 #include "../sharedMacros.h"
 
 void showMenu(void) {
-    char *item[MENU_NUM] = {"SSTF", "FCFS", "Scan", "C-Scan", "Look", "C-Look"};
+    char *item[MENU_NUM] = {"FCFS (FIFO)", "SSTF", "Scan", "C-Scan", "Look", "C-Look"};
 
     printf("Algorithm Menu:\n");
 

@@ -2,7 +2,7 @@
 #include "menu/menu.h"
 
 int main() {
-    int selection;
+    int selection, cylinderLen = 0, *pLen = &cylinderLen, *cylinderList = (int *) calloc(cylinderLen, sizeof(int));
 
     system("cls || clear");
 
@@ -12,7 +12,9 @@ int main() {
 
     selection = getUserSelection();
 
-    algorithmSwitcher(selection);
+    getCylinderList(cylinderList, pLen);
+
+    algorithmSwitcher(selection, cylinderList, cylinderLen);
 
     return 0;
 }

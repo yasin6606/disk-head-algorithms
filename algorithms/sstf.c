@@ -1,5 +1,5 @@
 #include "../main.h"
 
-void sstf() {
+void sstf(int *cylinderList, int cylinderLen) {
 
 }

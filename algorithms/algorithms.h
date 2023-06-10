@@ -8,16 +8,16 @@
 #include "look.c"
 #include "cLook.c"
 
-void sstf();
+void sstf(int *cylinderList, int cylinderLen);
 
-void fcfs();
+void fcfs(int *cylinderList, int cylinderLen);
 
-void scan();
+void scan(int *cylinderList, int cylinderLen);
 
-void cScan();
+void cScan(int *cylinderList, int cylinderLen);
 
-void look();
+void look(int *cylinderList, int cylinderLen);
 
-void cLook();
+void cLook(int *cylinderList, int cylinderLen);
 
 #endif //HW3_ALGORITHMS_H

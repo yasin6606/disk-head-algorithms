@@ -1,25 +1,25 @@
 #include "../main.h"
 #include "../algorithms/algorithms.h"
 
-void algorithmSwitcher(int selection) {
+void algorithmSwitcher(int selection, int *cylinderList, int cylinderLen) {
     switch (selection) {
         case 1:
-            sstf();
+            fcfs(cylinderList, cylinderLen);
             break;
         case 2:
-            sstf();
+            sstf(cylinderList, cylinderLen);
             break;
         case 3:
-            sstf();
+            scan(cylinderList, cylinderLen);
             break;
         case 4:
-            sstf();
+            cScan(cylinderList, cylinderLen);
             break;
         case 5:
-            sstf();
+            look(cylinderList, cylinderLen);
             break;
         case 6:
-            sstf();
+            cLook(cylinderList, cylinderLen);
             break;
         default:
             printf("\n%sWrong!%s\n", ANSI_COLOR_RED, ANSI_COLOR_RESET);

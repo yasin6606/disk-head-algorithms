@@ -1,5 +1,5 @@
 #include "../main.h"
 
-void cLook() {
+void cLook(int *cylinderList, int cylinderLen) {
 
 }
